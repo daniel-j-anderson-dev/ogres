@@ -1,5 +1,7 @@
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Hello, world!");
+
+    return Ok(());
 }
 
 fn get_input(prompt: &str) -> Result<String, std::io::Error> {
