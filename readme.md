@@ -6,9 +6,9 @@ learning project that will mimic GREP
 <b>Usage:</b> ogres [OPTIONS] [PATTERN] [FILE]
 
 # Options
- - file (f)
+ - --file (-f)
 
- - line (l)
+ - --line (-l)
 
- - word (w)
+ - --word (-w)
 
