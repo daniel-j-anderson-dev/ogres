@@ -6,6 +6,7 @@ fn get_input(prompt: &str) -> Result<String, std::io::Error> {
     use std::io::{stdin, stdout, Write};
 
     stdout().write(prompt.as_bytes())?;
+    stdout().flush()?;
     
     let mut input = String::new();
     stdin().read_line(&mut input)?;
