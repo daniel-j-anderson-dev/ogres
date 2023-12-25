@@ -5,18 +5,14 @@ learning project that will mimic GREP
 
 <b>Usage:</b> ogres [OPTIONS] [PATTERN] [FILE]
 
-# Options
+# Examples:
 
-## Focus Options
- - --file (-f)
+#### Usage:
+```sh
+    ogres "unix" "./new.txt"
+```
 
- - --line (-l)
-
- - --word (-w)
-
-## Location Options
-- --path (-p)
-
-## Inversion Options
-  - --invert pattern match (-i)
-- --invert output (-o)
+#### Output:
+```sh
+    Found "unix" in "fully/qualified/path/new.txt" @ line 3, word 4
+```
