@@ -1,4 +1,14 @@
+TODO: flesh me out!
+
 OGRES: Other Global Regular Expression Search
 learning project that will mimic GREP
 
-TODO: flesh me out!
+<b>Usage:</b> ogres [OPTIONS] [PATTERN] [FILE]
+
+# Options
+ - file (f)
+
+ - line (l)
+
+ - word (w)
+
